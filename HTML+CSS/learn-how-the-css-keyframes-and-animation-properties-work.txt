@@ -1,0 +1,55 @@
+
+ADVERTISEMENT
+freeCodeCamp Challenge Guide: Learn How the CSS @keyframes and animation Properties Work
+Guide
+
+camperbot
+Great contributor
+
+4
+Aug '20
+Learn How the CSS @keyframes and animation Properties Work 957
+This is a stub. Help the community by making a suggestion of a hint and/or solution. We may use your suggestions to update the missing sections.
+
+Problem Explanation
+This summarizes what need to be done without just restating the challenge description and/or instructions.
+
+Relevant Links
+Mozilla Docs: @keyframes 381
+Hints
+Hint 1
+Hint goes here
+
+Hint 2
+Hint goes here
+
+Solutions
+Solution 1 (Click to Show/Hide)
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+
+</style>
+<div id="rect"></div>
